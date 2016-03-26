@@ -39,7 +39,7 @@ bool GameScene::init()
 
 	//¼ÓÔØÒôÀÖ£¬²¥·Å±³¾°ÒôÀÖ
 	auto audioengine = SimpleAudioEngine::getInstance();
-	audioengine->preloadBackgroundMusic("sound/bgmusic.mp3");
+	audioengine->preloadBackgroundMusic("sound/newcomer.mp3");
 	audioengine->preloadEffect("sound/shoot.wav");
 	audioengine->preloadEffect("sound/hero_down.mp3");
 	audioengine->preloadEffect("sound/enemy3_down.wav");
@@ -47,7 +47,7 @@ bool GameScene::init()
 	audioengine->preloadEffect("sound/enemy2_down.wav");
 	audioengine->preloadEffect("sound/big_spaceship_flying.mp3");
 
-	audioengine->playBackgroundMusic("sound/bgmusic.mp3", true);
+	audioengine->playBackgroundMusic("sound/newcomer.mp3", true);
 
 	//²¥·Å±³¾°Í¼
 	playBackground();
@@ -196,6 +196,7 @@ void GameScene::publishScore()
 void GameScene::gameover()
 {
 	publishScore(); //´æ´¢ÓÎÏ··ÖÊý
+	SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
 	auto scene = TransitionFade::create(2.0, GameOverScene::createScene());
 	Director::getInstance()->replaceScene(scene);
 }

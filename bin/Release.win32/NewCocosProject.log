@@ -1,0 +1,79 @@
+﻿生成启动时间为 2016/3/20 18:28:08。
+     1>项目“D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\NewCocosProject.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\cocos\audio\include /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /I"D:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\cocos\editor-support" /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\cocos /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\cocos\platform /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\cocos\platform\desktop /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /ID:\Documents\Cocos\CocosProjects\NewCocosProject\cocos2d\cocos\2d\..\..\external /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\GameOverScene.cpp ..\Classes\GameScene.cpp ..\Classes\PlaneEnemy.cpp ..\Classes\PlaneHero.cpp main.cpp
+         AppDelegate.cpp
+         GameOverScene.cpp
+         GameScene.cpp
+         PlaneEnemy.cpp
+         PlaneHero.cpp
+         main.cpp
+     1>..\Classes\PlaneHero.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>..\Classes\AppDelegate.cpp(34): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\GameOverScene.cpp(32): warning C4996: 'cocos2d::MenuItem::setTarget': 被声明为已否决
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\2d/CCMenuItem.h(93) : 参见“cocos2d::MenuItem::setTarget”的声明
+     1>..\Classes\PlaneHero.cpp(24): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\PlaneHero.cpp(44): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\PlaneEnemy.cpp(31): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\deprecated/CCDeprecated.h(1051) : 参见“cocos2d::String”的声明
+     1>..\Classes\PlaneEnemy.cpp(65): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\deprecated/CCDeprecated.h(1051) : 参见“cocos2d::String”的声明
+     1>..\Classes\PlaneEnemy.cpp(95): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\PlaneEnemy.cpp(147): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\GameScene.cpp(11): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>..\Classes\GameScene.cpp(63): warning C4996: 'cocos2d::MenuItemToggle::createWithTarget': 被声明为已否决
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\2d/CCMenuItem.h(484) : 参见“cocos2d::MenuItemToggle::createWithTarget”的声明
+     1>..\Classes\GameScene.cpp(95): warning C4996: 'cocos2d::Node::boundingBox': 被声明为已否决
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\2d/CCNode.h(1173) : 参见“cocos2d::Node::boundingBox”的声明
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\2d/CCNode.h(1173) : 参见“cocos2d::Node::boundingBox”的声明
+                 d:\documents\cocos\cocosprojects\newcocosproject\cocos2d\cocos\2d/CCNode.h(1173) : 参见“cocos2d::Node::boundingBox”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release.win32\game.res" game.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\ /LIBPATH:D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\ libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.lib" /MACHINE:X86 /SAFESEH Release.win32\game.res
+         Release.win32\AppDelegate.obj
+         Release.win32\GameOverScene.obj
+         Release.win32\GameScene.obj
+         Release.win32\PlaneEnemy.obj
+         Release.win32\PlaneHero.obj
+         Release.win32\main.obj
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\libcocos2d.lib
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\libSpine.lib
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\libbox2d.lib
+            正在创建库 D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.lib 和对象 D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.exp
+         正在生成代码
+         已完成代码的生成
+         NewCocosProject.vcxproj -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\NewCocosProject.exe
+       CustomBuildStep:
+         if not exist "D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\" mkdir "D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\"
+         xcopy "D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\..\Resources" "D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\CloseNormal.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\CloseNormal.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\CloseSelected.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\CloseSelected.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\HelloWorld.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\HelloWorld.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\icon.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\icon.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\shoot.plist -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\shoot.plist
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\shoot.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\shoot.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\shoot_background.plist -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\shoot_background.plist
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\shoot_background.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\shoot_background.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\fonts\arial.ttf -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\fonts\arial.ttf
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\fonts\Marker Felt.ttf -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\fonts\Marker Felt.ttf
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\.gitkeep -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\.gitkeep
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\HelloWorld.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\HelloWorld.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\MainScene.csb -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\MainScene.csb
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\Default\Button_Disable.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\Default\Button_Disable.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\Default\Button_Normal.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\Default\Button_Normal.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\res\Default\Button_Press.png -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\res\Default\Button_Press.png
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\bgmusic.mp3 -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\bgmusic.mp3
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\enemy1_down.wav -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\enemy1_down.wav
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\enemy2_down.wav -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\enemy2_down.wav
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\enemy3_down.wav -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\enemy3_down.wav
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\hero_down.mp3 -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\hero_down.mp3
+         D:\Documents\Cocos\CocosProjects\NewCocosProject\Resources\sound\shoot.wav -> D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\Release.win32\sound\shoot.wav
+         复制了 22 个文件
+     1>已完成生成项目“D:\Documents\Cocos\CocosProjects\NewCocosProject\proj.win32\NewCocosProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.11
